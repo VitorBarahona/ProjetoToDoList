@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Lista de Tarefas</title>
+</head>
+
+<body>
+    <h1>Minha Lista de Tarefas Diárias</h1>
+
+    <div class="content">
+        <div class="content-add-item">
+            <input type="text" id="input-new-task" placeholder="Digite Sua Nova Tarefa Aqui">
+            <button id="btn-new-task" onclick="newTask()" title="Clique aqui para adicionar uma nova tarefa">✔️</button>
+        </div>
+        <div class="content-body">
+            <ul id="to-do-list">
+
+            </ul>
+        </div>
+    </div>
+</body>
+
+<script src="./src/js/index.js"></script>
+</html>
